@@ -9,21 +9,79 @@
 /* Begin PBXBuildFile section */
 		BA31A16928B46ADC00E49DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A16828B46ADC00E49DE9 /* AppDelegate.swift */; };
 		BA31A16B28B46ADC00E49DE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A16A28B46ADC00E49DE9 /* SceneDelegate.swift */; };
-		BA31A16D28B46ADC00E49DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A16C28B46ADC00E49DE9 /* ViewController.swift */; };
-		BA31A17028B46ADC00E49DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA31A16E28B46ADC00E49DE9 /* Main.storyboard */; };
 		BA31A17228B46ADD00E49DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA31A17128B46ADD00E49DE9 /* Assets.xcassets */; };
 		BA31A17528B46ADD00E49DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA31A17328B46ADD00E49DE9 /* LaunchScreen.storyboard */; };
+		BA31A17D28B46BCE00E49DE9 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A17C28B46BCE00E49DE9 /* CountriesViewController.swift */; };
+		BA31A18028B46CC400E49DE9 /* HomeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A17F28B46CC400E49DE9 /* HomeCollectionView.swift */; };
+		BA31A18228B46CF200E49DE9 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A18128B46CF200E49DE9 /* CountryModel.swift */; };
+		BA31A18428B46DBF00E49DE9 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A18328B46DBF00E49DE9 /* HomeCollectionViewCell.swift */; };
+		BA31A18628B46EB300E49DE9 /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A18528B46EB300E49DE9 /* ViewConfiguration.swift */; };
+		BA31A18828B4711100E49DE9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A18728B4711100E49DE9 /* HomeView.swift */; };
+		BA31A18A28B472AD00E49DE9 /* CountriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A18928B472AD00E49DE9 /* CountriesViewModel.swift */; };
+		BA31A18C28B479D400E49DE9 /* CountryListMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A18B28B479D400E49DE9 /* CountryListMock.swift */; };
+		BA31A18F28B56E9B00E49DE9 /* StickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A18E28B56E9B00E49DE9 /* StickerViewController.swift */; };
+		BA31A19128B56EBC00E49DE9 /* StickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A19028B56EBC00E49DE9 /* StickerViewModel.swift */; };
+		BA31A19328B56F0300E49DE9 /* StickerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A19228B56F0300E49DE9 /* StickerList.swift */; };
+		BA31A19628B572FB00E49DE9 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A19528B572FB00E49DE9 /* String+Extension.swift */; };
+		BA31A19828B574C700E49DE9 /* StickerTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A19728B574C700E49DE9 /* StickerTableView.swift */; };
+		BA31A19A28B575B200E49DE9 /* StickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A19928B575B200E49DE9 /* StickerTableViewCell.swift */; };
+		BA31A19C28B579F400E49DE9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A19B28B579F400E49DE9 /* UIColor+Extension.swift */; };
+		BA31A19E28B5B72E00E49DE9 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A19D28B5B72E00E49DE9 /* UIButton+Extension.swift */; };
+		BA31A1A028B5B7C400E49DE9 /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A19F28B5B7C400E49DE9 /* ButtonType.swift */; };
+		BA31A1A228B5B92900E49DE9 /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A1A128B5B92900E49DE9 /* UserDefaults+Extension.swift */; };
+		BA31A1A428B5CD5B00E49DE9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A1A328B5CD5B00E49DE9 /* BaseViewController.swift */; };
+		BA31A1B128B8490000E49DE9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A1B028B8490000E49DE9 /* TabBarController.swift */; };
+		BA31A1B428B8570900E49DE9 /* RepeatedStickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A1B328B8570900E49DE9 /* RepeatedStickerViewController.swift */; };
+		BA31A1B628B857BE00E49DE9 /* RepeatedStickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A1B528B857BE00E49DE9 /* RepeatedStickerViewModel.swift */; };
+		BA31A1B828B86E8000E49DE9 /* CountryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A1B728B86E8000E49DE9 /* CountryHelper.swift */; };
+		BA31A1BA28B8755600E49DE9 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A1B928B8755600E49DE9 /* UITableView+Extension.swift */; };
+		BA31A1BC28BD57CF00E49DE9 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A1BB28BD57CF00E49DE9 /* ScoreView.swift */; };
+		BA31A1BE28BD5DF900E49DE9 /* HomeCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31A1BD28BD5DF900E49DE9 /* HomeCollectionHeaderView.swift */; };
+		BABB8F5D28C2F3E20071C8E1 /* LocalizableString.strings in Resources */ = {isa = PBXBuildFile; fileRef = BABB8F5C28C2F3E20071C8E1 /* LocalizableString.strings */; };
+		BABB8F6528C2F8240071C8E1 /* StickerViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB8F6428C2F8240071C8E1 /* StickerViewData.swift */; };
+		BABB8F6828C2FB870071C8E1 /* StickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABB8F6728C2FB870071C8E1 /* StickerHelper.swift */; };
+		D9E01B0AEC2C313383ED934E /* Pods_MinhasFigurinhas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797B568C5E82FEE57DCF5B2B /* Pods_MinhasFigurinhas.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68BD715D4AA4166BE0EEF342 /* Pods-MinhasFigurinhas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhasFigurinhas.release.xcconfig"; path = "Target Support Files/Pods-MinhasFigurinhas/Pods-MinhasFigurinhas.release.xcconfig"; sourceTree = "<group>"; };
+		797B568C5E82FEE57DCF5B2B /* Pods_MinhasFigurinhas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinhasFigurinhas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		798E7A5C6634457FB15B5878 /* Pods-MinhasFigurinhas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhasFigurinhas.debug.xcconfig"; path = "Target Support Files/Pods-MinhasFigurinhas/Pods-MinhasFigurinhas.debug.xcconfig"; sourceTree = "<group>"; };
 		BA31A16528B46ADC00E49DE9 /* MinhasFigurinhas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinhasFigurinhas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA31A16828B46ADC00E49DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA31A16A28B46ADC00E49DE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA31A16C28B46ADC00E49DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BA31A16F28B46ADC00E49DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA31A17128B46ADD00E49DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA31A17428B46ADD00E49DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA31A17628B46ADD00E49DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA31A17C28B46BCE00E49DE9 /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
+		BA31A17F28B46CC400E49DE9 /* HomeCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionView.swift; sourceTree = "<group>"; };
+		BA31A18128B46CF200E49DE9 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		BA31A18328B46DBF00E49DE9 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		BA31A18528B46EB300E49DE9 /* ViewConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
+		BA31A18728B4711100E49DE9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BA31A18928B472AD00E49DE9 /* CountriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewModel.swift; sourceTree = "<group>"; };
+		BA31A18B28B479D400E49DE9 /* CountryListMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListMock.swift; sourceTree = "<group>"; };
+		BA31A18E28B56E9B00E49DE9 /* StickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerViewController.swift; sourceTree = "<group>"; };
+		BA31A19028B56EBC00E49DE9 /* StickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerViewModel.swift; sourceTree = "<group>"; };
+		BA31A19228B56F0300E49DE9 /* StickerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerList.swift; sourceTree = "<group>"; };
+		BA31A19528B572FB00E49DE9 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		BA31A19728B574C700E49DE9 /* StickerTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerTableView.swift; sourceTree = "<group>"; };
+		BA31A19928B575B200E49DE9 /* StickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerTableViewCell.swift; sourceTree = "<group>"; };
+		BA31A19B28B579F400E49DE9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		BA31A19D28B5B72E00E49DE9 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		BA31A19F28B5B7C400E49DE9 /* ButtonType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		BA31A1A128B5B92900E49DE9 /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		BA31A1A328B5CD5B00E49DE9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BA31A1B028B8490000E49DE9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		BA31A1B328B8570900E49DE9 /* RepeatedStickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatedStickerViewController.swift; sourceTree = "<group>"; };
+		BA31A1B528B857BE00E49DE9 /* RepeatedStickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatedStickerViewModel.swift; sourceTree = "<group>"; };
+		BA31A1B728B86E8000E49DE9 /* CountryHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryHelper.swift; sourceTree = "<group>"; };
+		BA31A1B928B8755600E49DE9 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		BA31A1BB28BD57CF00E49DE9 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		BA31A1BD28BD5DF900E49DE9 /* HomeCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionHeaderView.swift; sourceTree = "<group>"; };
+		BABB8F5C28C2F3E20071C8E1 /* LocalizableString.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = LocalizableString.strings; sourceTree = "<group>"; };
+		BABB8F6428C2F8240071C8E1 /* StickerViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerViewData.swift; sourceTree = "<group>"; };
+		BABB8F6728C2FB870071C8E1 /* StickerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +89,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9E01B0AEC2C313383ED934E /* Pods_MinhasFigurinhas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F5E99CC27F8D8C77BB7BB41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				797B568C5E82FEE57DCF5B2B /* Pods_MinhasFigurinhas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA31A15C28B46ADC00E49DE9 = {
 			isa = PBXGroup;
 			children = (
+				BABB8F5C28C2F3E20071C8E1 /* LocalizableString.strings */,
 				BA31A16728B46ADC00E49DE9 /* MinhasFigurinhas */,
 				BA31A16628B46ADC00E49DE9 /* Products */,
+				E12EB3808B0618861029B7F3 /* Pods */,
+				4F5E99CC27F8D8C77BB7BB41 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +126,194 @@
 		BA31A16728B46ADC00E49DE9 /* MinhasFigurinhas */ = {
 			isa = PBXGroup;
 			children = (
+				BA31A1B228B856DE00E49DE9 /* RepeatedSticker */,
+				BA31A1AF28B7220000E49DE9 /* TabBar */,
+				BA31A19428B572ED00E49DE9 /* Utils */,
+				BA31A18D28B56E6900E49DE9 /* Sticker */,
+				BA31A17E28B46CB400E49DE9 /* Home */,
 				BA31A16828B46ADC00E49DE9 /* AppDelegate.swift */,
 				BA31A16A28B46ADC00E49DE9 /* SceneDelegate.swift */,
-				BA31A16C28B46ADC00E49DE9 /* ViewController.swift */,
-				BA31A16E28B46ADC00E49DE9 /* Main.storyboard */,
 				BA31A17128B46ADD00E49DE9 /* Assets.xcassets */,
 				BA31A17328B46ADD00E49DE9 /* LaunchScreen.storyboard */,
 				BA31A17628B46ADD00E49DE9 /* Info.plist */,
 			);
 			path = MinhasFigurinhas;
+			sourceTree = "<group>";
+		};
+		BA31A17E28B46CB400E49DE9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BA31A1AC28B721A400E49DE9 /* Model */,
+				BA31A1AB28B7219F00E49DE9 /* ViewModel */,
+				BA31A1AA28B7219700E49DE9 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BA31A18D28B56E6900E49DE9 /* Sticker */ = {
+			isa = PBXGroup;
+			children = (
+				BA31A1A928B7218D00E49DE9 /* Model */,
+				BA31A1A828B7218600E49DE9 /* ViewModel */,
+				BA31A1A528B7216800E49DE9 /* View */,
+			);
+			path = Sticker;
+			sourceTree = "<group>";
+		};
+		BA31A19428B572ED00E49DE9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BABB8F6628C2FB6F0071C8E1 /* Helpers */,
+				BA31A1AE28B721C900E49DE9 /* Extension */,
+				BA31A19F28B5B7C400E49DE9 /* ButtonType.swift */,
+				BA31A1A328B5CD5B00E49DE9 /* BaseViewController.swift */,
+				BA31A18528B46EB300E49DE9 /* ViewConfiguration.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BA31A1A528B7216800E49DE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA31A18E28B56E9B00E49DE9 /* StickerViewController.swift */,
+				BA31A1A728B7217B00E49DE9 /* Views */,
+				BA31A1A628B7217300E49DE9 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA31A1A628B7217300E49DE9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BA31A19928B575B200E49DE9 /* StickerTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BA31A1A728B7217B00E49DE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA31A19728B574C700E49DE9 /* StickerTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA31A1A828B7218600E49DE9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA31A19028B56EBC00E49DE9 /* StickerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA31A1A928B7218D00E49DE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA31A19228B56F0300E49DE9 /* StickerList.swift */,
+				BABB8F6428C2F8240071C8E1 /* StickerViewData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA31A1AA28B7219700E49DE9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA31A1AD28B721BC00E49DE9 /* Views */,
+				BA31A17C28B46BCE00E49DE9 /* CountriesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA31A1AB28B7219F00E49DE9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA31A18928B472AD00E49DE9 /* CountriesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BA31A1AC28B721A400E49DE9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA31A18128B46CF200E49DE9 /* CountryModel.swift */,
+				BA31A18B28B479D400E49DE9 /* CountryListMock.swift */,
+				BA31A1B728B86E8000E49DE9 /* CountryHelper.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA31A1AD28B721BC00E49DE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA31A18328B46DBF00E49DE9 /* HomeCollectionViewCell.swift */,
+				BA31A17F28B46CC400E49DE9 /* HomeCollectionView.swift */,
+				BA31A18728B4711100E49DE9 /* HomeView.swift */,
+				BA31A1BB28BD57CF00E49DE9 /* ScoreView.swift */,
+				BA31A1BD28BD5DF900E49DE9 /* HomeCollectionHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA31A1AE28B721C900E49DE9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BA31A19B28B579F400E49DE9 /* UIColor+Extension.swift */,
+				BA31A19D28B5B72E00E49DE9 /* UIButton+Extension.swift */,
+				BA31A19528B572FB00E49DE9 /* String+Extension.swift */,
+				BA31A1A128B5B92900E49DE9 /* UserDefaults+Extension.swift */,
+				BA31A1B928B8755600E49DE9 /* UITableView+Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		BA31A1AF28B7220000E49DE9 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				BA31A1B028B8490000E49DE9 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		BA31A1B228B856DE00E49DE9 /* RepeatedSticker */ = {
+			isa = PBXGroup;
+			children = (
+				BABB8F5F28C2F6100071C8E1 /* ViewModel */,
+				BABB8F5E28C2F6040071C8E1 /* View */,
+			);
+			path = RepeatedSticker;
+			sourceTree = "<group>";
+		};
+		BABB8F5E28C2F6040071C8E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA31A1B328B8570900E49DE9 /* RepeatedStickerViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BABB8F5F28C2F6100071C8E1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA31A1B528B857BE00E49DE9 /* RepeatedStickerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BABB8F6628C2FB6F0071C8E1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BABB8F6728C2FB870071C8E1 /* StickerHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		E12EB3808B0618861029B7F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				798E7A5C6634457FB15B5878 /* Pods-MinhasFigurinhas.debug.xcconfig */,
+				68BD715D4AA4166BE0EEF342 /* Pods-MinhasFigurinhas.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +323,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA31A17928B46ADD00E49DE9 /* Build configuration list for PBXNativeTarget "MinhasFigurinhas" */;
 			buildPhases = (
+				53CD0FF54EEF170078937987 /* [CP] Check Pods Manifest.lock */,
 				BA31A16128B46ADC00E49DE9 /* Sources */,
 				BA31A16228B46ADC00E49DE9 /* Frameworks */,
 				BA31A16328B46ADC00E49DE9 /* Resources */,
+				D90792A34FEB1950F8A7E5D5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,35 +377,96 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA31A17528B46ADD00E49DE9 /* LaunchScreen.storyboard in Resources */,
+				BABB8F5D28C2F3E20071C8E1 /* LocalizableString.strings in Resources */,
 				BA31A17228B46ADD00E49DE9 /* Assets.xcassets in Resources */,
-				BA31A17028B46ADC00E49DE9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53CD0FF54EEF170078937987 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MinhasFigurinhas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D90792A34FEB1950F8A7E5D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MinhasFigurinhas/Pods-MinhasFigurinhas-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MinhasFigurinhas/Pods-MinhasFigurinhas-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MinhasFigurinhas/Pods-MinhasFigurinhas-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BA31A16128B46ADC00E49DE9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA31A16D28B46ADC00E49DE9 /* ViewController.swift in Sources */,
+				BA31A18228B46CF200E49DE9 /* CountryModel.swift in Sources */,
+				BA31A18A28B472AD00E49DE9 /* CountriesViewModel.swift in Sources */,
+				BA31A19128B56EBC00E49DE9 /* StickerViewModel.swift in Sources */,
+				BA31A18C28B479D400E49DE9 /* CountryListMock.swift in Sources */,
+				BA31A1B628B857BE00E49DE9 /* RepeatedStickerViewModel.swift in Sources */,
+				BA31A19C28B579F400E49DE9 /* UIColor+Extension.swift in Sources */,
+				BA31A1A428B5CD5B00E49DE9 /* BaseViewController.swift in Sources */,
+				BA31A19E28B5B72E00E49DE9 /* UIButton+Extension.swift in Sources */,
 				BA31A16928B46ADC00E49DE9 /* AppDelegate.swift in Sources */,
+				BA31A1B428B8570900E49DE9 /* RepeatedStickerViewController.swift in Sources */,
+				BA31A1BE28BD5DF900E49DE9 /* HomeCollectionHeaderView.swift in Sources */,
 				BA31A16B28B46ADC00E49DE9 /* SceneDelegate.swift in Sources */,
+				BA31A17D28B46BCE00E49DE9 /* CountriesViewController.swift in Sources */,
+				BABB8F6528C2F8240071C8E1 /* StickerViewData.swift in Sources */,
+				BA31A19328B56F0300E49DE9 /* StickerList.swift in Sources */,
+				BA31A19628B572FB00E49DE9 /* String+Extension.swift in Sources */,
+				BA31A18F28B56E9B00E49DE9 /* StickerViewController.swift in Sources */,
+				BABB8F6828C2FB870071C8E1 /* StickerHelper.swift in Sources */,
+				BA31A1B128B8490000E49DE9 /* TabBarController.swift in Sources */,
+				BA31A19828B574C700E49DE9 /* StickerTableView.swift in Sources */,
+				BA31A18028B46CC400E49DE9 /* HomeCollectionView.swift in Sources */,
+				BA31A18828B4711100E49DE9 /* HomeView.swift in Sources */,
+				BA31A19A28B575B200E49DE9 /* StickerTableViewCell.swift in Sources */,
+				BA31A1BC28BD57CF00E49DE9 /* ScoreView.swift in Sources */,
+				BA31A1A028B5B7C400E49DE9 /* ButtonType.swift in Sources */,
+				BA31A18628B46EB300E49DE9 /* ViewConfiguration.swift in Sources */,
+				BA31A1A228B5B92900E49DE9 /* UserDefaults+Extension.swift in Sources */,
+				BA31A18428B46DBF00E49DE9 /* HomeCollectionViewCell.swift in Sources */,
+				BA31A1B828B86E8000E49DE9 /* CountryHelper.swift in Sources */,
+				BA31A1BA28B8755600E49DE9 /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BA31A16E28B46ADC00E49DE9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BA31A16F28B46ADC00E49DE9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BA31A17328B46ADD00E49DE9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +594,7 @@
 		};
 		BA31A17A28B46ADD00E49DE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798E7A5C6634457FB15B5878 /* Pods-MinhasFigurinhas.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +605,7 @@
 				INFOPLIST_FILE = MinhasFigurinhas/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +623,7 @@
 		};
 		BA31A17B28B46ADD00E49DE9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BD715D4AA4166BE0EEF342 /* Pods-MinhasFigurinhas.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +634,7 @@
 				INFOPLIST_FILE = MinhasFigurinhas/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
